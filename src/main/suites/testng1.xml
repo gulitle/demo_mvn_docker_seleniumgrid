@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="chrome_test1" verbose ="1">
+<!-- 	<listeners>
+		<listener class-name="tiki.vn.qc.ConnectTestRail" /> 
+		<listener class-name="tiki.vn.qc.UpdateTestResult" /> 
+	</listeners>
+-->
+	<test name="test" preserve-order="false">
+		<classes>
+			<class name="test.simple"></class>
+		</classes>
+	</test>
+</suite>
